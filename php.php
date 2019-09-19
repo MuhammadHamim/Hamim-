@@ -67,7 +67,7 @@
       
       <p><span class = "error">* required field.</span></p>
       
-      <form method = "POST" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+      <form method = "GET" action ="contact.html">
          <table>
             <tr>
                <td>Name:</td>
