@@ -1,0 +1,233 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lobster|Playball&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3a03573d97.js"></script>
+
+<style type="text/css">
+*
+{
+margin:0;
+padding:0;
+}
+.header
+{
+width:100%;
+height:80px;
+position:fixed; 
+}
+.menu ul li
+{
+display:inline;
+}
+.menu ul li a
+{
+text-align:center;
+text-decoration:none;
+color:black;
+padding:10px;
+font-size:15px;
+margin-right:20px; 
+}
+.menu
+{
+float:right;
+margin-top:30px;
+}
+.menu ul li a:hover
+{
+color:white;
+background:black;
+opacity:0.4;
+}
+.logo
+{
+font-size:25px;
+float:left;
+padding:10px;
+margin-top:10px;
+}
+.skills{
+position:ralative; 
+width:80%;
+margin:auto;
+transform:translateY(200px);
+}
+.skillhead center h3
+{
+font-size :60px;
+}
+
+.skill ul li
+{
+margin-bottom :50px;
+list-style:none;
+position:relative ;
+text-transform:uppercase;
+}
+.skills li:before
+{
+content:" ";
+position :absolute ;
+height:15px;
+width:100%;
+top:25px;
+left:0;
+border-radius :1000px;
+background :red;
+}
+.skill ul li:after
+{
+content:" ";
+position :absolute ;
+width:0%;
+height:15px;
+top:25px;
+left:0;
+border-radius :1000px;
+background :green;
+animation-duration:3s;
+animation-fill-mode:forwards;
+animation-timing-function:ease;
+}
+
+.skill ul li.html:after
+{
+animation-name:html;
+}
+@keyframes html
+{
+	to{
+		width:90%;
+	}
+}
+.skill ul li.css:after
+{
+animation-name:css;
+}
+@keyframes css
+{
+	to{
+		width:60%;
+	}
+}
+.skill ul li.java:after
+{
+animation-name:java;
+}
+@keyframes java
+{
+	to{
+		width:20%;
+	}
+}
+.skill ul li.bootstrap:after
+{
+animation-name:bootstrap;
+}
+@keyframes bootstrap 
+{
+	to{
+		width:10%;
+	}
+}
+.skill ul li.sql:after
+{
+animation-name:sql;
+}
+@keyframes sql
+{
+	to{
+		width:15%;
+	}
+}
+.skill ul li.php:after
+{
+animation-name:php;
+}
+@keyframes php
+{
+	to{
+		width:35%;
+	}
+}
+.skill ul li.c:after
+{
+animation-name:c;
+}
+@keyframes c
+{
+	to{
+		width:65%;
+	}
+}
+.skill ul li.cplus:after
+{
+animation-name:cplus;
+}
+@keyframes cplus
+{
+	to{
+		width:70%;
+	}
+}
+.skill ul li.python:after
+{
+animation-name:python;
+}
+@keyframes python
+{
+	to{
+		width:25%;
+	}
+}
+.skill ul li.ios:after
+{
+animation-name:ios;
+}
+@keyframes ios
+{
+	to{
+		width:20%;
+	}
+}
+</style>
+</head>
+<body>
+<div class="body">
+	<div class="header">
+		<div class="logo">
+			<h2>Muhammad Hamim</h2>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="https://hamim360net.github.io/First-website/#" > <i class="fas fa-home"></i> Home</a></li>
+				<li><a href="#" > <i class="fas fa-user"></i> About</a></li>
+				<li><a href="#" > <i class="fas fa-user-graduate"></i> Education</a></li>
+				<li><a href="skills.html" > <i class="fas fa-chart-line"></i> Skills</a></li>
+				<li><a href="contact.html" > <i class="fas fa-comment-dots"></i> Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="skills">
+	<div class="skillhead">
+		<center><h3>Skills</h3></center>
+	</div>
+	<div class="skill">
+		<ul>
+			<li class="html">HTML</li>
+			<li class="css">CSS</li>
+			<li class="java">JavaScript </li>
+			<li class="bootstrap">Bootstrap</li>
+			<li class="sql">SQL</li>
+			<li class="php">PHP</li>
+			<li class="c">C</li>
+			<li class="cplus">C++</li>
+			<li class="python">Phython</li>
+			<li class="ios">IOS</li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
